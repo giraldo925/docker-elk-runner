@@ -8,7 +8,7 @@ DASH_DIR=/etc/dashboards
 
 # Make sure Elasticsearch is reachable
 echo "Trying to reach Elasticsearch..."
-until $(curl --output /dev/null --fail --silent -X GET "${ELASTICSEARCHi}/_cat/health?v"); do
+until $(curl --output /dev/null --fail --silent -X GET "${ELASTICSEARCH}/_cat/health?v"); do
   echo "Couldn't get Elasticsearch at $ELASTICSEARCH, are you sure it's reachable?"
   sleep 5
 done
