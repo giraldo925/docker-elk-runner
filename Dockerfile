@@ -12,7 +12,6 @@ ADD dashboards /etc/dashboards/
 
 RUN chmod +x /runner-script.sh
 
-ENV "ELASTICSEARCH=localhost:9200" \
- 	KIBANA_INDEX=".kibana"
+ENV KIBANA="localhost:5601"
 
 ENTRYPOINT ["/runner-script.sh"]

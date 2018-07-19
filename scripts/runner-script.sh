@@ -6,10 +6,10 @@ SEARCH_DIR=/etc/searches
 VIS_DIR=/etc/visualizations
 DASH_DIR=/etc/dashboards
 
-# Make sure Elasticsearch is reachable
-echo "Trying to reach Elasticsearch..."
-until $(curl --output /dev/null --fail --silent -X GET "${ELASTICSEARCH}/_cat/health?v"); do
-  echo "Couldn't get Elasticsearch at $ELASTICSEARCH, are you sure it's reachable?"
+# Make sure Kibana is reachable
+echo "Trying to reach Kibana..."
+until $(curl --output /dev/null --fail --silent -X GET "${KIBANA}"); do
+  echo "Couldn't get Kibana at $KIBANA, are you sure it's reachable?"
   sleep 5
 done
 
@@ -21,7 +21,7 @@ then
   do
     NAME=`basename ${file} .json`
     echo "Loading index pattern ${NAME}:"
-    curl -XPUT -H 'Content-Type:application/json' ${ELASTICSEARCH}/${KIBANA_INDEX}/doc/index-pattern:${NAME}  -d @${file}
+    curl -XPOST "${KIBANA}/api/kibana/index-pattern/import" -H 'kbn-xsrf:true' -H 'Content-type:application/json' -d @${file} || exit 1
     echo
   done
 else
@@ -36,7 +36,7 @@ then
   do
     NAME=`basename ${file} .json`
     echo "Loading Search ${NAME}:"
-    curl -XPUT  -H 'Content-Type:application/json' ${ELASTICSEARCH}/${KIBANA_INDEX}/doc/search:${NAME} -d @${file}
+    curl -XPOST "${KIBANA}/api/kibana/search/import" -H 'kbn-xsrf:true' -H 'Content-type:application/json' -d @${file} || exit 1
     echo
   done
 else
@@ -51,7 +51,7 @@ then
   do
     NAME=`basename ${file} .json`
     echo "Loading dashboard ${NAME}:"
-    curl -XPUT  -H 'Content-Type:application/json' ${ELASTICSEARCH}/${KIBANA_INDEX}/doc/visualization:${NAME} -d @${file}
+    curl -XPOST "${KIBANA}/api/kibana/visualizations/import" -H 'kbn-xsrf:true' -H 'Content-type:application/json' -d @${file} || exit 1
     echo
   done
 else
@@ -66,7 +66,7 @@ then
   do
     NAME=`basename ${file} .json`
     echo "Loading dashboard ${NAME}:"
-    curl -XPUT  -H 'Content-Type:application/json' ${ELASTICSEARCH}/${KIBANA_INDEX}/doc/dashboard:${NAME} -d @${file}
+    curl -XPOST "${KIBANA}/api/kibana/dashboards/import" -H 'kbn-xsrf:true' -H 'Content-type:application/json' -d @${file} || exit 1
     echo
   done
 else
