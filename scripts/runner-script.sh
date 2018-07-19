@@ -7,11 +7,11 @@ VIS_DIR=/etc/visualizations
 DASH_DIR=/etc/dashboards
 
 # Make sure Elasticsearch is reachable
-#echo "Trying to reach Elasticsearch..."
-#until $(curl --output /dev/null --fail --silent -X GET "${ELASTICSEARCHi}/_cat/health?v"); do
-#  echo "Couldn't get Elasticsearch at $ELASTICSEARCH, are you sure it's reachable?"
-#  sleep 5
-#done
+echo "Trying to reach Elasticsearch..."
+until $(curl --output /dev/null --fail --silent -X GET "${ELASTICSEARCHi}/_cat/health?v"); do
+  echo "Couldn't get Elasticsearch at $ELASTICSEARCH, are you sure it's reachable?"
+  sleep 5
+done
 
 # Create Index Patterns
 PATTERNS_FOUND=`ls -1 ${PATTERNS_DIR}/*.json 2>/dev/null | wc -l`
