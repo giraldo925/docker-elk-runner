@@ -1,0 +1,103 @@
+[
+  {
+    "_id": "44456920-65ac-11e8-94dc-d5dcc7e0191b",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":19,\"w\":6,\"h\":3,\"i\":\"1\"},\"id\":\"d42d1770-5389-11e8-b906-d351ba65eee5\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":3,\"i\":\"2\"},\"id\":\"db688a70-64e5-11e8-94dc-d5dcc7e0191b\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":3,\"i\":\"3\"},\"id\":\"b2bb7c40-64e5-11e8-94dc-d5dcc7e0191b\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":22,\"w\":12,\"h\":5,\"i\":\"4\"},\"id\":\"feceb3d0-68ec-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":16,\"w\":6,\"h\":3,\"i\":\"5\"},\"id\":\"6609b450-68ed-11e8-b2e6-cbeed9253e31\",\"title\":\"User Agent \",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":6,\"y\":19,\"w\":6,\"h\":3,\"i\":\"6\"},\"id\":\"393d59e0-68ed-11e8-b2e6-cbeed9253e31\",\"title\":\"HOST\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":6,\"y\":16,\"w\":6,\"h\":3,\"i\":\"7\"},\"id\":\"93c49700-68f9-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":6,\"y\":13,\"w\":6,\"h\":3,\"i\":\"8\"},\"id\":\"995fcb50-68ed-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":7,\"y\":10,\"w\":5,\"h\":3,\"i\":\"9\"},\"id\":\"3059a390-68f4-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":0,\"y\":6,\"w\":7,\"h\":7,\"i\":\"10\"},\"id\":\"2648dc80-698b-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":7,\"y\":6,\"w\":5,\"h\":4,\"i\":\"11\"},\"id\":\"26289100-6990-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":13,\"w\":6,\"h\":3,\"i\":\"12\"},\"id\":\"ea234460-699a-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":0,\"y\":27,\"w\":6,\"h\":7,\"i\":\"13\"},\"id\":\"8fdf6620-69c0-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":6,\"y\":27,\"w\":6,\"h\":7,\"i\":\"14\"},\"id\":\"badc30b0-69c0-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":6,\"i\":\"15\"},\"version\":\"6.1.4\",\"type\":\"search\",\"id\":\"58983750-6b4b-11e8-b2e6-cbeed9253e31\"}]",
+      "optionsJSON": "{\"darkTheme\":true,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "uiStateJSON": "{\"P-10\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}},\"vis\":{\"legendOpen\":false}},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-13\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-14\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-6\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "0719cce0-6d76-11e8-b2e6-cbeed9253e31",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Suricata Alerts",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"1\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"8fee8e90-6d74-11e8-b2e6-cbeed9253e31\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":3,\"w\":12,\"h\":4,\"i\":\"2\"},\"version\":\"6.1.4\",\"type\":\"search\",\"id\":\"58983750-6b4b-11e8-b2e6-cbeed9253e31\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":3,\"i\":\"3\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"be19e750-6d75-11e8-b2e6-cbeed9253e31\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":true,\"hidePanelTitles\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "77711bb0-6d76-11e8-b2e6-cbeed9253e31",
+    "_type": "dashboard",
+    "_source": {
+      "title": "HTTP",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":3,\"i\":\"1\"},\"id\":\"995fcb50-68ed-11e8-b2e6-cbeed9253e31\",\"title\":\"HTTP Method\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":3,\"i\":\"2\"},\"id\":\"393d59e0-68ed-11e8-b2e6-cbeed9253e31\",\"title\":\"HOST\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":3,\"i\":\"3\"},\"id\":\"6609b450-68ed-11e8-b2e6-cbeed9253e31\",\"title\":\"User Agent \",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":3,\"y\":6,\"w\":7,\"h\":3,\"i\":\"4\"},\"id\":\"feceb3d0-68ec-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":5,\"y\":0,\"w\":7,\"h\":3,\"i\":\"5\"},\"id\":\"4201e480-6d7d-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "uiStateJSON": "{\"P-1\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-5\":{\"vis\":{\"legendOpen\":true}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "95eee4f0-6d76-11e8-b2e6-cbeed9253e31",
+    "_type": "dashboard",
+    "_source": {
+      "title": "SSL/TLS",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"1\"},\"id\":\"93c49700-68f9-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":3,\"i\":\"2\"},\"id\":\"bb785a10-6d78-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":3,\"w\":8,\"h\":4,\"i\":\"3\"},\"id\":\"64807250-6d79-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":7,\"w\":8,\"h\":5,\"i\":\"4\"},\"id\":\"2f4467d0-6d7a-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":8,\"y\":3,\"w\":4,\"h\":5,\"i\":\"5\"},\"id\":\"a681eb10-6d7a-11e8-b2e6-cbeed9253e31\",\"type\":\"visualization\",\"version\":\"6.1.4\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "uiStateJSON": "{\"P-1\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-2\":{\"vis\":{\"legendOpen\":true}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "4bf423c0-6988-11e8-b2e6-cbeed9253e31",
+    "_type": "dashboard",
+    "_source": {
+      "title": "DNS Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":6,\"h\":3,\"i\":\"1\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"3059a390-68f4-11e8-b2e6-cbeed9253e31\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":6,\"y\":6,\"w\":6,\"h\":3,\"i\":\"4\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"26289100-6990-11e8-b2e6-cbeed9253e31\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":6,\"y\":0,\"w\":6,\"h\":6,\"i\":\"5\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"8fdf6620-69c0-11e8-b2e6-cbeed9253e31\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":9,\"w\":6,\"h\":3,\"i\":\"6\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"badc30b0-69c0-11e8-b2e6-cbeed9253e31\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":3,\"i\":\"7\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"3df1a180-6d7f-11e8-b2e6-cbeed9253e31\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":6,\"w\":6,\"h\":3,\"i\":\"8\"},\"version\":\"6.1.4\",\"type\":\"visualization\",\"id\":\"2648dc80-698b-11e8-b2e6-cbeed9253e31\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":true,\"hidePanelTitles\":false}",
+      "uiStateJSON": "{\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}},\"P-6\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "79313530-20a9-11e8-a082-0f8cf225e57b",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Bro IDS (bro-conn) Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"4\",\"gridData\":{\"x\":23,\"y\":0,\"w\":25,\"h\":14,\"i\":\"4\"},\"id\":\"77f69ce0-20aa-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":32,\"y\":14,\"w\":16,\"h\":15,\"i\":\"5\"},\"id\":\"c424df00-20aa-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":0,\"w\":23,\"h\":14,\"i\":\"6\"},\"id\":\"58503cb0-20ab-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":0,\"y\":14,\"w\":32,\"h\":14,\"i\":\"7\"},\"id\":\"230ae360-20ac-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":28,\"w\":16,\"h\":15,\"i\":\"8\"},\"id\":\"f0296ab0-20ac-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}},{\"panelIndex\":\"9\",\"gridData\":{\"x\":16,\"y\":28,\"w\":16,\"h\":15,\"i\":\"9\"},\"id\":\"06302650-20ad-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}},{\"panelIndex\":\"10\",\"gridData\":{\"x\":32,\"y\":44,\"w\":16,\"h\":15,\"i\":\"10\"},\"id\":\"8f88ac10-20ad-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":32,\"y\":29,\"w\":16,\"h\":15,\"i\":\"11\"},\"id\":\"38358f80-20af-11e8-a082-0f8cf225e57b\",\"type\":\"visualization\",\"version\":\"6.3.0\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":43,\"w\":32,\"h\":15,\"i\":\"12\"},\"columns\":[\"conn_state\",\"protocol\",\"service\",\"orig_pkts\",\"resp_pkts\"],\"id\":\"5accbc20-20b0-11e8-a082-0f8cf225e57b\",\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\",\"version\":\"6.3.0\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":{\"match_all\":{}}}}"
+      }
+    }
+  }
+]
