@@ -1,0 +1,130 @@
+[
+  {
+    "_id": "5a14d880-6435-11e8-94dc-d5dcc7e0191b",
+    "_type": "search",
+    "_source": {
+      "title": "SURICATA-source_ip",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "src_ip"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b5ec0bb0-6435-11e8-94dc-d5dcc7e0191b",
+    "_type": "search",
+    "_source": {
+      "title": "SURICATA-dest_ip",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "dest_ip"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "aa70f250-64e4-11e8-94dc-d5dcc7e0191b",
+    "_type": "search",
+    "_source": {
+      "title": "SURRICATA-true-dest-ip",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "dest_ip"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "58983750-6b4b-11e8-b2e6-cbeed9253e31",
+    "_type": "search",
+    "_source": {
+      "title": "Suricata alerts",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "alert.signature",
+        "alert.action",
+        "src_ip",
+        "alert.severity",
+        "alert.signature_id"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"event_type: alert\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "48edb530-64e0-11e8-94dc-d5dcc7e0191b",
+    "_type": "search",
+    "_source": {
+      "title": "SURICATA-new-src-ip",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "src_ip"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "5accbc20-20b0-11e8-a082-0f8cf225e57b",
+    "_type": "search",
+    "_source": {
+      "title": "Bro Logs",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "conn_state",
+        "protocol",
+        "service",
+        "orig_pkts",
+        "resp_pkts"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"bro\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"[logzioCustomerIndex]YYMMDD\",\"key\":\"type\",\"negate\":true,\"type\":\"phrase\",\"value\":\"logzio-index-failure\"},\"query\":{\"match\":{\"type\":{\"query\":\"logzio-index-failure\",\"type\":\"phrase\"}}}}]}"
+      }
+    }
+  }
+]
