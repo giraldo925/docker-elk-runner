@@ -1,0 +1,36 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: dashboards
+  namespace: default
+  labels:
+    app: dashboards
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dashboards
+  template:
+    metadata:
+      name: dasboards
+      labels:
+        app: dasboards
+      annotations:
+          networks: '[ { "name": "calico" }, { "name": "passive" } ]'
+    spec:
+      containers:
+      - name: dashboards
+        imagePullPolicy: Always
+        image: docker.io/giraldo925/dashboards
+        ports:
+        - containerPort: 3000
+      - name: redis
+        image: redis:4.0.9
+        imagePullPolicy: Always
+        ports:
+        - name: cport-6379
+          containerPort: 6379
+      restartPolicy: Always
+      dnsPolicy: ClusterFirst
+      nodeSelector:
+        master: infrastructure
